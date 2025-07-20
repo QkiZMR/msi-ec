@@ -2599,11 +2599,11 @@ static struct msi_ec_conf CONF36 __initdata = {
 	},
 	.cpu = {
 		.rt_temp_address      = 0x68, // CPU temperature
-		.rt_fan_speed_address = 0x71,
+		.rt_fan_speed_address = 0xc9,
 	},
 	.gpu = {
 		.rt_temp_address      = 0x80, // GPU temperature
-		.rt_fan_speed_address = 0x89,
+		.rt_fan_speed_address = 0xcb,
 	},
 	.leds = {
 		.micmute_led_address = 0x2c,
