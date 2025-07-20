@@ -1,3 +1,7 @@
+## My few changes to original work
+
+This is fork of  BeardOverflow/msi-ec repo. `Main` branch is synced from time to time with main repo to simplify work but branch `katana15_b13vfk` contains changes that are needed for me. Its only affects configuration for my laptop which is Katana 15 B13VFK obviously. 
+
 # Embedded Controller for MSI laptops
 
 ## Disclaimer
