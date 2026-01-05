@@ -1093,7 +1093,7 @@ static const char *ALLOWED_FW_G2_1[] __initconst = {
 	"1584IMS1.106", // Katana GF66 12UDO (ITE) (#467)
 	"1585EMS1.112", // Katana 15 B13VGK
 	"1585EMS1.113",
-	"1585EMS1.115", // Pulse 15 B13VGK
+	"1585EMS1.115", // Katana 15 B13VFK
 	"1585EMS2.110", // Katana 15 B12VGK
 	"1585EMS2.115", // Katana 15 B12VFK
 	"158NIMS1.109", // Bravo 15 C7V
