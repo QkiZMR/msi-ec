@@ -1143,7 +1143,7 @@ static struct msi_ec_conf CONF_G2_1 __initdata = {
 	.fn_win_swap = {
 		.address = 0xe8,
 		.bit     = 4,
-		.invert  = true,
+		.invert  = true, // true because FN key is on right side
 	},
 	.cooler_boost = {
 		.address = 0x98,
@@ -1173,11 +1173,11 @@ static struct msi_ec_conf CONF_G2_1 __initdata = {
 	},
 	.cpu = {
 		.rt_temp_address      = 0x68,
-		.rt_fan_speed_address = 0x71,
+		.rt_fan_speed_address = 0xc9,
 	},
 	.gpu = {
 		.rt_temp_address      = 0x80,
-		.rt_fan_speed_address = 0x89,
+		.rt_fan_speed_address = 0xcb,
 	},
 	.leds = {
 		.micmute_led_address = 0x2c,
