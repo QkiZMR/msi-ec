@@ -1133,7 +1133,7 @@ static const char *ALLOWED_FW_G2_1[] __initconst = {
 	"1585EMS1.111", // Creator M16 B13VF
 	"1585EMS1.112", // Katana 15 B13VGK
 	"1585EMS1.113",
-	"1585EMS1.115", // Pulse 15 B13VGK
+	"1585EMS1.115", // Katana 15 B13VFK
 	"1585EMS2.109", // Katana 15 B12VEK / B12VFK / B12VGK
 	"1585EMS2.110",
 	"1585EMS2.111",
@@ -1190,7 +1190,7 @@ static struct msi_ec_conf CONF_G2_1 __initdata = {
 	.fn_win_swap = {
 		.address = 0xe8,
 		.bit     = 4,
-		.invert  = true,
+		.invert  = true, // true because FN key is on right side
 	},
 	.cooler_boost = {
 		.address = 0x98,
